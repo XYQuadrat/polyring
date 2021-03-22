@@ -1,8 +1,8 @@
 {
-  "name": "webring",
+  "name": "polyring",
   "version": "0.1.0",
   "description": "A boilerplate for hosting a webring community",
-  "author": "Max Böck",
+  "author": "Max Böck, adapted by xyquadrat",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -10,9 +10,7 @@
   },
   "scripts": {
     "start": "ELEVENTY_ENV=development eleventy --serve",
-    "build": "ELEVENTY_ENV=production eleventy && npm run build:lambda",
-    "serve:lambda": "netlify-lambda serve _lambda",
-    "build:lambda": "netlify-lambda build _lambda"
+    "build": "ELEVENTY_ENV=production eleventy"
   },
   "dependencies": {
     "@11ty/eleventy": "^0.11.0",
@@ -20,7 +18,6 @@
     "clean-css": "^4.2.3",
     "cssesc": "^3.0.0",
     "html-minifier": "^4.0.0",
-    "netlify-lambda": "^1.6.3",
     "node-sass": "^4.14.1"
   }
 }

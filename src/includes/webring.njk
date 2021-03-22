@@ -2,13 +2,13 @@
     <header class="webring__header">
         <h1 class="webring__title">{{ meta.title }}</h1>
         <p>{{ meta.description }}</p>
-        <a href="/code-of-conduct">Code of Conduct</a>
+        <a href="{{ meta.url }}/code-of-conduct">Code of Conduct</a>
     </header>
         
     <div class="webring__body">
         <div class="webring__subtitle">
             <h2 class="h3">Members ({{ members | length }})</h2>
-            <a href="/feeds.xml">RSS Feeds</a>
+            <a href="{{ meta.url }}/feeds.xml">RSS Feeds</a>
         </div>
 
         <ol class="webring__memberlist">

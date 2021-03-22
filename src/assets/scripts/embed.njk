@@ -1,6 +1,8 @@
 ---
 permalink: 'embed.js'
 ---
+const WEBRING_DATA_URL = "https://xyquadrat.ch/polyring/data/members.json"
+
 class WebringBanner extends HTMLElement {
     constructor() {
         super();
@@ -9,9 +11,20 @@ class WebringBanner extends HTMLElement {
         this.url = '{{ meta.url }}';
         this.image = this.url + '/assets/images/{{ meta.image }}';
         this.membercount = {{ members | length}};
-
         this.shadowObj = this.attachShadow({ mode: 'open' });
-        this.render();
+        
+        fetch(WEBRING_DATA_URL)
+          .then(response => response.json())
+          .then(sites => {
+            const siteIndex = sites.findIndex(
+              (site) => site.url.includes(window.location.hostname)
+            );
+
+            this.previousUrl = siteIndex < 1 ? sites[sites.length - 1].url : sites[siteIndex - 1].url;
+            this.nextUrl = siteIndex == sites.length ? sites[0].url : sites[siteIndex + 1].url;
+            
+            this.render();
+          });
     }
 
     getStyles() {
@@ -149,17 +162,12 @@ class WebringBanner extends HTMLElement {
             </div>
             <p class="webring-banner__links">
               <a 
-                href="${this.url}/prev" 
+                href="${this.previousUrl}" 
                 class="webring-banner__link webring-banner__link--prev" 
                 aria-label="Go to previous site"
               >⬅️Previous</a>
               <a
-                href="${this.url}/random"
-                class="webring-banner__link webring-banner__link--random" 
-                aria-label="Go to a random site"
-              >😎Random</a>
-              <a
-                href="${this.url}/next"
+                href="${this.nextUrl}"
                 class="webring-banner__link webring-banner__link--next"
                 aria-label="Go to next site"
               >Next ➡️</a>

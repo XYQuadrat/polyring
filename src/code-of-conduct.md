@@ -5,6 +5,9 @@ title: 'Code of Conduct'
 
 # Code of Conduct
 
-Rules for being in this webring.
+This webring is intended for current or past members of ETH (students, professors and other staff).
+Please only submit your site / blog if you fulfill this condition.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed fuga quae labore, at adipisci mollitia consequatur possimus sint dolor corrupti unde aperiam iste cumque repudiandae enim, aliquid optio amet, quo quia. Doloribus eius atque quis. Odit, culpa saepe! Perferendis, ratione. Laboriosam ratione quod doloribus perferendis? Minus sit itaque totam eius.
+Do not link to NSFW content. Do not link to illegal content. In general, abide to the golden rule of Bill & Ted: "Be excellent to each other!"
+
+If you believe these rules to be infringed, please send a mail to <a href="mailto:mail@xyquadrat.ch">mail@xyquadrat.ch</a>.

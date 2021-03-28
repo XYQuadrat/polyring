@@ -8,5 +8,10 @@
         "title": "Oliver Saravanja",
         "url": "https://blog.saravanja.ch/",
         "feed": "https://blog.saravanja.ch/feed"
+    },
+    {
+        "title": "Aaron Hodel",
+        "url": "https://spclr.ch/",
+        "feed": "https://spclr.ch/feed.php"
     }
 ]

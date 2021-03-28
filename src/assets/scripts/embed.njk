@@ -21,7 +21,7 @@ class WebringBanner extends HTMLElement {
             );
 
             this.previousUrl = siteIndex < 1 ? sites[sites.length - 1].url : sites[siteIndex - 1].url;
-            this.nextUrl = siteIndex == sites.length ? sites[0].url : sites[siteIndex + 1].url;
+            this.nextUrl = siteIndex >= sites.length - 1 ? sites[0].url : sites[siteIndex + 1].url;
             
             this.render();
           });
@@ -41,9 +41,8 @@ class WebringBanner extends HTMLElement {
           :host {
             display: block;
             width: 100%;
-            font-family: sans-serif;
             font-size: 16px;
-            text-align:left;
+            text-align: left;
           }
   
           .webring-banner {
@@ -51,25 +50,25 @@ class WebringBanner extends HTMLElement {
             border: 1px solid #DDD;
             border-radius: 8px;
             box-shadow: 0 2px 4px 0 rgba(14, 30, 37, 0.12);
-            max-width:480px;
+            max-width: 480px;
           }
 
           .webring-banner a {
             color: #7b16ff;
-            text-decoration:none;
+            text-decoration: none;
           }
 
           .webring-banner a:hover,
           .webring-banner a:focus {
             color: #6200e2;
-            text-decoration:underline;
+            text-decoration: underline;
           }
 
           .webring-banner__header {
-            display:flex;
+            display: flex;
             align-items: center;
-            flex-wrap:wrap;
-            position:relative;
+            flex-wrap: wrap;
+            position: relative;
             padding: 1rem;
             border-bottom: 1px solid #DDD;
           }
@@ -77,68 +76,65 @@ class WebringBanner extends HTMLElement {
           .webring-banner__description {
             flex: 1 0 0%;
             padding-right: 2rem;
+            color: #444;
           }
 
           .webring-banner__image {
-            display:block;
-            width:70px;
-            height:70px;
+            display: block;
+            width: 70px;
+            height: 70px;
             margin-right: 1rem;
-            border-radius:50%;
+            border-radius: 50%;
           }
 
           .webring-banner__title {
-            margin:0;
-            font-size:1.25rem;
+            margin: 0;
+            font-size: 1.5rem;
             font-weight: bold;
-            line-height:1.2;
+            line-height: 1.2;
           }
 
           .webring-banner__info {
-            display:flex;
-            justify-content:center;
-            border-radius:50%;
+            display: flex;
+            justify-content: center;
+            border-radius: 50%;
             border: 2px solid #DDD;
-            width:1.25rem;
-            height:1.25rem;
+            width: 1.25rem;
+            height: 1.25rem;
             line-height: 1.25rem;
             font-size: .75rem;
-            text-align:center;
+            text-align: center;
             color: #666;
-            text-decoration:none;
-            position:absolute;
-            top:1rem;
-            right:1rem;
+            text-decoration: none;
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
           }
 
           .webring-banner__links {
-            display:flex;
+            display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
             padding: 1rem;
-            margin:0;
+            margin: 0;
           }
 
           .webring-banner__link {
-            display:block;
-            text-decoration:none;
+            display: block;
+            text-decoration: none;
             color: #00ad9f;
           }
 
-          .webring-banner__link--random {
-            text-align:center;
-          }
-
           .webring-banner__link--next {
-            text-align:right;
+            text-align: right;
           }
 
           @media (min-width:400px) {
             .webring-banner__link {
-                min-width:100px;
+                min-width: 100px;
             }
             .webring-banner__info {
-                align-items:center;
+                align-items: center;
             }
           }
         </style>
@@ -156,7 +152,7 @@ class WebringBanner extends HTMLElement {
                 <h3 class="webring-banner__title">
                   <a href="${this.url}">${this.ringtitle}</a>
                 </h3>
-                <span>A webring with ${this.membercount} Members</span>
+                <span>A webring with ${this.membercount} members</span>
               </div>
               <a class="webring-banner__info" href="https://en.wikipedia.org/wiki/Webring" title="What's this?">?</a>
             </div>
@@ -165,12 +161,12 @@ class WebringBanner extends HTMLElement {
                 href="${this.previousUrl}" 
                 class="webring-banner__link webring-banner__link--prev" 
                 aria-label="Go to previous site"
-              >⬅️Previous</a>
+              >Previous</a>
               <a
                 href="${this.nextUrl}"
                 class="webring-banner__link webring-banner__link--next"
                 aria-label="Go to next site"
-              >Next ➡️</a>
+              >Next️</a>
             </p>
           </div>
         `;

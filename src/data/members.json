@@ -13,5 +13,10 @@
         "title": "Aaron Hodel",
         "url": "https://spclr.ch/",
         "feed": "https://spclr.ch/feed.php"
+    },
+    {
+        "title": "Alex (WingedDemonFox)",
+        "url": "https://wingeddemonfox.dev/",
+        "feed": "https://wingeddemonfox.dev/index.xml"
     }
 ]

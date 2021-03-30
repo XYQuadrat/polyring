@@ -18,5 +18,10 @@
         "title": "Alex (WingedDemonFox)",
         "url": "https://wingeddemonfox.dev/",
         "feed": "https://wingeddemonfox.dev/index.xml"
+    },
+    {
+        "title": "Cédric (Starbix)",
+        "url": "https://blog.laubacher.io/",
+        "feed": "https://blog.laubacher.io/blog.atom"
     }
 ]

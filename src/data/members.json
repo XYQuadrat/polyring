@@ -23,5 +23,10 @@
         "title": "Cédric (Starbix)",
         "url": "https://blog.laubacher.io/",
         "feed": "https://blog.laubacher.io/blog.atom"
+    },
+    {
+        "title": "Jonas Maier",
+        "url": "https://pluto.dev/",
+        "feed": "https://pluto.dev/rss.xml"
     }
 ]

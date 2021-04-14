@@ -33,5 +33,10 @@
         "title": "Amos Herz",
         "url": "https://www.herzamos.ch",
         "feed": "https://www.herzamos.ch/feed.xml "
+    },
+    {
+        "title": "Jérôme (Azurios)",
+        "url" : "https://azurios.gitlab.io/",
+        "feed" : "https://azurios.gitlab.io/index.xml"
     }
 ]

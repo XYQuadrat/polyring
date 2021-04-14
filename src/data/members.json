@@ -29,4 +29,9 @@
         "url": "https://pluto.dev/",
         "feed": "https://pluto.dev/rss.xml"
     }
+    {
+        "title": "Amos Herz",
+        "url": "https://www.herzamos.ch",
+        "feed": "https://www.herzamos.ch/feed.xml "
+    }
 ]

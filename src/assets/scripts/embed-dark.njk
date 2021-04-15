@@ -3,7 +3,7 @@ permalink: 'embed-dark.js'
 ---
 const WEBRING_DATA_URL = "https://xyquadrat.ch/polyring/data/members.json"
 
-class WebringBanner extends HTMLElement {
+class WebringBannerDark extends HTMLElement {
     constructor() {
         super();
 
@@ -45,7 +45,7 @@ class WebringBanner extends HTMLElement {
             text-align: left;
           }
   
-          .webring-banner {
+          .webring-banner-dark {
             background-color: #000;
             border: 1px solid #222;
             border-radius: 8px;
@@ -53,17 +53,17 @@ class WebringBanner extends HTMLElement {
             max-width: 480px;
           }
 
-          .webring-banner a {
+          .webring-banner-dark a {
             color: #9f56ff;
             text-decoration: none;
           }
 
-          .webring-banner a:hover,
-          .webring-banner a:focus {
+          .webring-banner-dark a:hover,
+          .webring-banner-dark a:focus {
             text-decoration: underline;
           }
 
-          .webring-banner__header {
+          .webring-banner-dark__header {
             display: flex;
             align-items: center;
             flex-wrap: wrap;
@@ -72,13 +72,13 @@ class WebringBanner extends HTMLElement {
             border-bottom: 1px solid #DDD;
           }
 
-          .webring-banner__description {
+          .webring-banner-dark__description {
             flex: 1 0 0%;
             padding-right: 2rem;
             color: #ddd;
           }
 
-          .webring-banner__image {
+          .webring-banner-dark__image {
             display: block;
             width: 70px;
             height: 70px;
@@ -87,14 +87,14 @@ class WebringBanner extends HTMLElement {
             filter: invert();
           }
 
-          .webring-banner__title {
+          .webring-banner-dark__title {
             margin: 0;
             font-size: 1.5rem;
             font-weight: bold;
             line-height: 1.2;
           }
 
-          .webring-banner__info {
+          .webring-banner-dark__info {
             display: flex;
             justify-content: center;
             border-radius: 50%;
@@ -111,7 +111,7 @@ class WebringBanner extends HTMLElement {
             right: 1rem;
           }
 
-          .webring-banner__links {
+          .webring-banner-dark__links {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
@@ -119,21 +119,21 @@ class WebringBanner extends HTMLElement {
             margin: 0;
           }
 
-          .webring-banner__link {
+          .webring-banner-dark__link {
             display: block;
             text-decoration: none;
             color: #00ad9f;
           }
 
-          .webring-banner__link--next {
+          .webring-banner-dark__link--next {
             text-align: right;
           }
 
           @media (min-width:400px) {
-            .webring-banner__link {
+            .webring-banner-dark__link {
                 min-width: 100px;
             }
-            .webring-banner__info {
+            .webring-banner-dark__info {
                 align-items: center;
             }
           }
@@ -144,27 +144,27 @@ class WebringBanner extends HTMLElement {
     getTemplate() {
         return `
           ${this.getStyles()}
-          <div class="webring-banner">
-            <div class="webring-banner__header">
-              <img class="webring-banner__image" src="${this.image}" alt="" />
-              <div class="webring-banner__description">
+          <div class="webring-banner-dark">
+            <div class="webring-banner-dark__header">
+              <img class="webring-banner-dark__image" src="${this.image}" alt="" />
+              <div class="webring-banner-dark__description">
                 <span>This site is part of</span>
-                <h3 class="webring-banner__title">
+                <h3 class="webring-banner-dark__title">
                   <a href="${this.url}">${this.ringtitle}</a>
                 </h3>
                 <span>A webring with ${this.membercount} members</span>
               </div>
-              <a class="webring-banner__info" href="https://en.wikipedia.org/wiki/Webring" title="What's this?">?</a>
+              <a class="webring-banner-dark__info" href="https://en.wikipedia.org/wiki/Webring" title="What's this?">?</a>
             </div>
-            <p class="webring-banner__links">
+            <p class="webring-banner-dark__links">
               <a 
                 href="${this.previousUrl}" 
-                class="webring-banner__link webring-banner__link--prev" 
+                class="webring-banner-dark__link webring-banner-dark__link--prev" 
                 aria-label="Go to previous site"
               >Previous</a>
               <a
                 href="${this.nextUrl}"
-                class="webring-banner__link webring-banner__link--next"
+                class="webring-banner-dark__link webring-banner-dark__link--next"
                 aria-label="Go to next site"
               >Next️</a>
             </p>
@@ -177,4 +177,4 @@ class WebringBanner extends HTMLElement {
     }
 }
 
-customElements.define('webring-banner', WebringBanner);
+customElements.define('webring-banner-dark', WebringBannerDark);

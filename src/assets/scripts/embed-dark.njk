@@ -1,7 +1,7 @@
 ---
 permalink: 'embed-dark.js'
 ---
-const WEBRING_DATA_URL = "https://xyquadrat.ch/polyring/data/members.json"
+const WEBRING_DARK_DATA_URL = "https://xyquadrat.ch/polyring/data/members.json"
 
 class WebringBannerDark extends HTMLElement {
     constructor() {
@@ -13,7 +13,7 @@ class WebringBannerDark extends HTMLElement {
         this.membercount = {{ members | length}};
         this.shadowObj = this.attachShadow({ mode: 'open' });
         
-        fetch(WEBRING_DATA_URL)
+        fetch(WEBRING_DARK_DATA_URL)
           .then(response => response.json())
           .then(sites => {
             const siteIndex = sites.findIndex(

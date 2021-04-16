@@ -38,5 +38,10 @@
         "title": "Jérôme (Azurios)",
         "url" : "https://azurios.gitlab.io/",
         "feed" : "https://azurios.gitlab.io/index.xml"
+    },
+    {
+        "title": "Mark Csurgay",
+        "url" : "https://markc.su",
+        "feed" : "https://markc.su/posts/index.xml"
     }
 ]

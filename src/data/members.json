@@ -43,5 +43,11 @@
         "title": "Mark Csurgay",
         "url" : "https://markc.su",
         "feed" : "https://markc.su/posts/index.xml"
+    }, 
+    {
+        "title": "joniii", 
+        "url"  : "https://blog.ethz.wtf",
+        "feed" : "https://blog.ethz.wtf/feed.xml" 
     }
+
 ]

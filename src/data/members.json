@@ -48,6 +48,10 @@
         "title": "joniii", 
         "url"  : "https://blog.ethz.wtf",
         "feed" : "https://blog.ethz.wtf/feed.xml" 
+    },
+    {
+        "title": "Alexander Schlieper",
+        "url" : "https://schlieper.ch",
+        "feed" : "https://www.schlieper.ch/posts/index.xml"
     }
-
 ]

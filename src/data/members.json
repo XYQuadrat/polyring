@@ -53,5 +53,10 @@
         "title": "Alexander Schlieper",
         "url" : "https://schlieper.ch",
         "feed" : "https://www.schlieper.ch/posts/index.xml"
+    },
+    {
+        "title": "Luca (gewlar)",
+        "url" : "https://ateon.ch",
+        "feed" : "https://www.ateon.ch/blog.rss"
     }
 ]

@@ -3,7 +3,8 @@ permalink: 'embed.js'
 ---
 const WEBRING_DATA_URL = "https://xyquadrat.ch/polyring/data/members.json"
 
-class WebringBanner extends HTMLElement {
+class WebringBanner extends HTMLElement {    
+
     constructor() {
         super();
 
@@ -27,6 +28,10 @@ class WebringBanner extends HTMLElement {
           });
     }
 
+    static get observedAttributes() {
+      return ['theme'];
+    }
+
     getStyles() {
         return `
         <style>
@@ -46,21 +51,21 @@ class WebringBanner extends HTMLElement {
           }
   
           .webring-banner {
-            background-color: #FFF;
-            border: 1px solid #DDD;
+            background-color: var(--background-color, #FFF);
+            border: 1px solid var(--outer-border-color, #DDD);
             border-radius: 8px;
             box-shadow: 0 2px 4px 0 rgba(14, 30, 37, 0.12);
             max-width: 480px;
           }
 
           .webring-banner a {
-            color: #7b16ff;
+            color: var(--href-color, #7b16ff);
             text-decoration: none;
           }
 
           .webring-banner a:hover,
           .webring-banner a:focus {
-            color: #6200e2;
+            color: var(--href-color-active, #6200e2);
             text-decoration: underline;
           }
 
@@ -70,13 +75,13 @@ class WebringBanner extends HTMLElement {
             flex-wrap: wrap;
             position: relative;
             padding: 1rem;
-            border-bottom: 1px solid #DDD;
+            border-bottom: 1px solid var(--inner-border-color, #DDD);
           }
 
           .webring-banner__description {
             flex: 1 0 0%;
             padding-right: 2rem;
-            color: #444;
+            color: var(--text-color, #444);
           }
 
           .webring-banner__image {
@@ -98,7 +103,7 @@ class WebringBanner extends HTMLElement {
             display: flex;
             justify-content: center;
             border-radius: 50%;
-            border: 2px solid #DDD;
+            border: 2px solid var(--inner-border-color, #DDD);
             width: 1.25rem;
             height: 1.25rem;
             line-height: 1.25rem;
@@ -119,10 +124,10 @@ class WebringBanner extends HTMLElement {
             margin: 0;
           }
 
-          .webring-banner__link {
+          .webring-banner__link.a {
             display: block;
             text-decoration: none;
-            color: #00ad9f;
+            color: var(--href-color, #00ad9f);
           }
 
           .webring-banner__link--next {
@@ -175,6 +180,21 @@ class WebringBanner extends HTMLElement {
     render() {
         this.shadowObj.innerHTML = this.getTemplate();
     }
+
+    attributeChangedCallback(attrName, oldVal, newVal) {
+      if(attrName == "theme" && newVal && oldVal !== newVal) {
+        fetch(newVal).then(response => response.json())
+            .then(val => {
+                var item;
+                for(item in val) {
+                  this.style.setProperty(item, val[item]);
+                }              
+            }).catch( val => {
+                console.error(val);
+            });  
+      }
+    }
+
 }
 
 customElements.define('webring-banner', WebringBanner);

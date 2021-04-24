@@ -1,13 +1,15 @@
 ---
 permalink: 'embed.js'
 ---
+const THEME_FOLDER_URL = "https://xyquadrat.ch/polyring/assets/themes/"
+
 class WebringBanner extends HTMLElement {
 
     // lookup table for available themes
     themes = {
-      default: "assets/themes/default.json",
-      dark: "assets/themes/dark.json",
-      ugly: "assets/themes/ugly.json"
+      default: THEME_FOLDER_URL + "default.json",
+      dark: THEME_FOLDER_URL + "dark.json",
+      ugly: THEME_FOLDER_URL + "ugly.json"
     }
 
     constructor() {

@@ -1,8 +1,10 @@
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
+const svgContents = require('eleventy-plugin-svg-contents')
 const htmlMinifier = require('html-minifier')
 
 module.exports = function (config) {
     config.addPlugin(syntaxHighlight)
+    config.addPlugin(svgContents)
 
     config.addLayoutAlias('base', 'base.njk')
     config.addLayoutAlias('page', 'page.njk')

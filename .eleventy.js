@@ -2,6 +2,10 @@ const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const svgContents = require('eleventy-plugin-svg-contents')
 const htmlMinifier = require('html-minifier')
 
+function roundToTwo(x){
+    return Math.round((x + Number.EPSILON) * 100) / 100
+}
+
 module.exports = function (config) {
     config.addPlugin(syntaxHighlight)
     config.addPlugin(svgContents)
@@ -12,8 +16,8 @@ module.exports = function (config) {
     config.addFilter('mapNodes', function (nodes, radius, width, height) {
         return nodes.map((node, index) => {
             const angle = (index / (nodes.length / 2)) * Math.PI
-            const x = radius * Math.cos(angle) + width / 2
-            const y = radius * Math.sin(angle) + height / 2
+            const x = roundToTwo(radius * Math.cos(angle) + width / 2)
+            const y = roundToTwo(radius * Math.sin(angle) + height / 2)
 
             return {
                 title: node.title,
@@ -37,8 +41,6 @@ module.exports = function (config) {
 
     config.addPassthroughCopy('src/assets/images')
     config.addPassthroughCopy('src/assets/themes')
-    config.addPassthroughCopy('src/prev')
-    config.addPassthroughCopy('src/next')
     config.addPassthroughCopy('src/data/members.json')
 
     return {

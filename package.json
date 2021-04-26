@@ -17,6 +17,7 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
     "clean-css": ">=4.2.3",
     "cssesc": "^3.0.0",
+    "eleventy-plugin-svg-contents": "^0.7.0",
     "html-minifier": "^4.0.0",
     "node-sass": "^5.0.0"
   }

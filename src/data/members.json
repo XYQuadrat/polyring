@@ -58,5 +58,10 @@
         "title": "Luca (gewlar)",
         "url" : "https://ateon.ch",
         "feed" : "https://www.ateon.ch/blog.rss"
+    },
+    {
+        "title": "Lukas Möller",
+        "url"  : "https://lukas-moeller.ch/blog",
+        "feed" : "https://lukas-moeller.ch/api/rss2.xml"
     }
 ]

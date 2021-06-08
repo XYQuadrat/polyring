@@ -63,5 +63,10 @@
         "title": "Lukas Möller",
         "url"  : "https://lukas-moeller.ch/blog",
         "feed" : "https://lukas-moeller.ch/api/rss2.xml"
+    },
+    {
+        "title": "Marc Andriu Carigiet",
+        "url"  : "https://marccarigiet.github.io/",
+        "feed" : "https://marccarigiet.github.io/posts/"
     }
 ]

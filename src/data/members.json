@@ -67,6 +67,6 @@
     {
         "title": "Marc Andriu Carigiet",
         "url"  : "https://marccarigiet.github.io/",
-        "feed" : "https://marccarigiet.github.io/posts/"
+        "feed" : "https://marccarigiet.github.io/posts/index.xml"
     }
 ]

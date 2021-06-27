@@ -1,4 +1,4 @@
-{% set r = 250 %}
+{% set r = 275 %}
 {% set ri = 50 %}
 {% set w = 700 %}
 {% set h = 640 %}
@@ -13,7 +13,7 @@
         <image class="map__image" x="{{ w/2 - ri }}" y="{{ h/2 - ri }}" clip-path="url(#map-image-mask)" xlink:href="{{ meta.url }}/assets/images/{{ meta.image }}" width="{{ ri*2 }}" height="{{ ri*2 }}" />
     {% endif %}
     {% for node in nodes %}
-        <a href="{{ node.url }}"><circle r="10" cx="{{ node.x }}" cy="{{ node.y }}" class="map__node"></circle></a>
-        <text x="{{ node.x }}" y="{{ node.y - 15 }}" text-anchor="middle" class="map__tooltip">{{ node.title }}</text>
+        <a href="{{ node.url }}"><circle r="10" cx="{{ node.x }}" cy="{{ node.y }}" class="map__node"></circle>
+        <text x="{{ node.x }}" y="{{ node.y - 15 }}" text-anchor="middle" class="map__tooltip">{{ node.title }}</text></a>
     {% endfor %}
 </svg>

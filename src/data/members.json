@@ -68,5 +68,10 @@
         "title": "Marc Andriu Carigiet",
         "url"  : "https://marccarigiet.github.io/",
         "feed" : "https://marccarigiet.github.io/posts/index.xml"
+    },
+    {
+        "title": "Tobias von Arx",
+        "url"  : "https://avanis.xyz/blog/",
+        "feed" : "https://avanis.xyz/blog/feed.xml"
     }
 ]

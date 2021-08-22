@@ -73,5 +73,10 @@
         "title": "Tobias von Arx",
         "url"  : "https://avanis.xyz/blog/",
         "feed" : "https://avanis.xyz/blog/feed.xml"
-    }
+    },
+    {
+        "title": "Adrian Martinez",
+        "url"  : "https://blog.martinez-ayuso.ch/",
+        "feed" : "https://blog.martinez-ayuso.ch/posts/index.xml"
+    },
 ]

@@ -3,7 +3,7 @@
 ![Screenshot of the polyring website](/src/assets/images/screenshot.png)
 
 The retro-and-it's-cool-again webring for blogs and sites by current or past members of ETH Zurich.
-See https://xyquadrat.ch/polyring for futher instructions.
+See https://polyring.ch for futher instructions.
 
 ## Contributions
 

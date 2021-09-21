@@ -83,5 +83,10 @@
         "title": "Jan Kogler",
         "url"  : "https://jankogler.github.io/",
         "feed" : "https://jankogler.github.io/feed.xml"
+    },
+    {
+        "title": "Luc Aggett",
+        "url"  : "http://nothome.xyz/",
+        "feed" : "https://nothome.xyz/feed/"
     }
 ]

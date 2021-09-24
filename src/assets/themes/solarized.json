@@ -1,0 +1,8 @@
+{
+  "--background-color": "#073642",
+  "--outer-border-color": "#002b36",
+  "--inner-border-color": "#586e75",
+  "--href-color": "#d33682",
+  "--href-color-active": "#d33682",
+  "--text-color": "#93a1a1"
+}

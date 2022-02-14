@@ -42,6 +42,7 @@ module.exports = function (config) {
     config.addPassthroughCopy('src/assets/images')
     config.addPassthroughCopy('src/assets/themes')
     config.addPassthroughCopy('src/data/members.json')
+    config.addPassthroughCopy('src/robots.txt')
 
     return {
         dir: {

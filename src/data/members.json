@@ -89,4 +89,8 @@
         "url"  : "http://nothome.xyz/",
         "feed" : "https://nothome.xyz/feed/"
     }
+    {
+        "title": "Danny Camenisch",
+        "url"  : "http://n.ethz.ch/~dcamenisch/"
+    }
 ]

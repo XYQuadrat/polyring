@@ -91,6 +91,7 @@
     },
     {
         "title": "Danny Camenisch",
-        "url"  : "http://n.ethz.ch/~dcamenisch/"
+        "url"  : "http://n.ethz.ch/~dcamenisch/",
+        "feed"  : "http://n.ethz.ch/~dcamenisch/feed.xml"
     }
 ]

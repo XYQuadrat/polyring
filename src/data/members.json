@@ -88,5 +88,10 @@
         "title": "Danny Camenisch",
         "url"  : "http://n.ethz.ch/~dcamenisch/",
         "feed"  : "http://n.ethz.ch/~dcamenisch/feed.xml"
+    },
+    {
+        "title" : "Yann Huynh",
+        "url"   : "https://ftchann.me/",
+        "feed"  : "https://ftchann.me/posts/index.xml"
     }
 ]

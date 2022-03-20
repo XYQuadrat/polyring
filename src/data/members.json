@@ -93,5 +93,9 @@
         "title" : "Yann Huynh",
         "url"   : "https://ftchann.me/",
         "feed"  : "https://ftchann.me/posts/index.xml"
+    },
+    {
+        "title" : "Owen Du",
+        "url"   : "https://du-owen.github.io"
     }
 ]

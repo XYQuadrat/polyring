@@ -96,6 +96,7 @@
     },
     {
         "title" : "Owen Du",
-        "url"   : "https://du-owen.github.io"
+        "url"   : "https://du-owen.github.io",
+        "feed"  : "https://du-owen.github.io/feed.xml"
     }
 ]

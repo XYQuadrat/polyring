@@ -1,12 +1,12 @@
 {
   "name": "polyring",
-  "version": "0.1.0",
-  "description": "A boilerplate for hosting a webring community",
+  "version": "1.0.0",
+  "description": "A webring for ETHZ members, based on code by Max Böck",
   "author": "Max Böck, adapted by xyquadrat",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "http://github.com/maxboeck/webring"
+    "url": "http://github.com/XYQuadrat/polyring"
   },
   "scripts": {
     "start": "ELEVENTY_ENV=development eleventy --serve",

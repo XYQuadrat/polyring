@@ -81,8 +81,8 @@
     },
     {
         "title": "Luc Aggett",
-        "url"  : "http://nothome.xyz/",
-        "feed" : "https://nothome.xyz/feed/"
+        "url"  : "https://nothome.xyz/blog",
+        "feed" : "https://nothome.xyz/blog/rss/"
     },
     {
         "title": "Danny Camenisch",

@@ -25,11 +25,6 @@
         "feed": "https://blog.laubacher.io/blog.atom"
     },
     {
-        "title": "Jonas Maier",
-        "url": "https://pentagon.codes/",
-        "feed": "https://pentagon.codes/rss.xml"
-    },
-    {
         "title": "Amos Herz",
         "url": "https://www.herzamos.ch",
         "feed": "https://www.herzamos.ch/feed.xml"

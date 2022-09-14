@@ -98,5 +98,10 @@
         "title" : "Elias Rodriguez",
         "url"   : "https://solitude-blog.vercel.app",
         "feed"  : "https://solitude-blog.vercel.app/feed.xml"
+    },
+    {
+        "title" : "Kai Zheng",
+        "url"   : "https://kaizheng.de",
+        "feed"  : "https://kaizheng.de/post/rss.xml"
     }
 ]

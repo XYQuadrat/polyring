@@ -19,6 +19,6 @@
     "cssesc": "^3.0.0",
     "eleventy-plugin-svg-contents": "^0.7.0",
     "html-minifier": "^4.0.0",
-    "node-sass": "^7.0.0"
+    "sass": "^1.56.0"
   }
 }

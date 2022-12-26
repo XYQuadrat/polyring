@@ -31,77 +31,77 @@
     },
     {
         "title": "Azurios",
-        "url" : "https://azurios.gitlab.io/",
-        "feed" : "https://azurios.gitlab.io/index.xml"
+        "url": "https://azurios.gitlab.io/",
+        "feed": "https://azurios.gitlab.io/index.xml"
     },
     {
         "title": "Mark Csurgay",
-        "url" : "https://markc.su",
-        "feed" : "https://markc.su/posts/index.xml"
-    }, 
+        "url": "https://markc.su",
+        "feed": "https://markc.su/posts/index.xml"
+    },
     {
-        "title": "joniii", 
-        "url"  : "https://blog.ethz.wtf",
-        "feed" : "https://blog.ethz.wtf/feed.xml" 
+        "title": "joniii",
+        "url": "https://blog.ethz.wtf",
+        "feed": "https://blog.ethz.wtf/feed.xml"
     },
     {
         "title": "Alexander Schlieper",
-        "url" : "https://www.schlieper.ch",
-        "feed" : "https://www.schlieper.ch/posts/index.xml"
+        "url": "https://www.schlieper.ch",
+        "feed": "https://www.schlieper.ch/posts/index.xml"
     },
     {
         "title": "Luca (gewlar)",
-        "url" : "https://ateon.ch",
-        "feed" : "https://www.ateon.ch/posts/index.xml"
+        "url": "https://ateon.ch",
+        "feed": "https://www.ateon.ch/posts/index.xml"
     },
     {
         "title": "Lukas Möller",
-        "url"  : "https://lukas-moeller.ch/blog",
-        "feed" : "https://lukas-moeller.ch/api/rss2.xml"
+        "url": "https://lukas-moeller.ch/blog",
+        "feed": "https://lukas-moeller.ch/api/rss2.xml"
     },
     {
         "title": "Marc Andriu Carigiet",
-        "url"  : "https://marccarigiet.github.io/",
-        "feed" : "https://marccarigiet.github.io/posts/index.xml"
+        "url": "https://marccarigiet.github.io/",
+        "feed": "https://marccarigiet.github.io/posts/index.xml"
     },
     {
         "title": "Tobias von Arx",
-        "url"  : "https://avanis.xyz/blog/",
-        "feed" : "https://avanis.xyz/blog/feed.xml"
+        "url": "https://avanis.xyz/blog/",
+        "feed": "https://avanis.xyz/blog/feed.xml"
     },
     {
         "title": "Jan Kogler",
-        "url"  : "https://jankogler.github.io/",
-        "feed" : "https://jankogler.github.io/feed.xml"
+        "url": "https://jankogler.github.io/",
+        "feed": "https://jankogler.github.io/feed.xml"
     },
     {
         "title": "Luc Aggett",
-        "url"  : "https://nothome.xyz/blog",
-        "feed" : "https://nothome.xyz/blog/rss/"
+        "url": "https://nothome.xyz/blog",
+        "feed": "https://nothome.xyz/blog/rss/"
     },
     {
         "title": "Danny Camenisch",
-        "url"  : "http://n.ethz.ch/~dcamenisch/",
-        "feed"  : "http://n.ethz.ch/~dcamenisch/feed.xml"
+        "url": "https://n.ethz.ch/~dcamenisch/",
+        "feed": "https://n.ethz.ch/~dcamenisch/feed.xml"
     },
     {
-        "title" : "Yann Huynh",
-        "url"   : "https://ftchann.me/",
-        "feed"  : "https://ftchann.me/posts/index.xml"
+        "title": "Yann Huynh",
+        "url": "https://ftchann.me/",
+        "feed": "https://ftchann.me/posts/index.xml"
     },
     {
-        "title" : "Owen Du",
-        "url"   : "https://du-owen.github.io",
-        "feed"  : "https://du-owen.github.io/feed.xml"
+        "title": "Owen Du",
+        "url": "https://du-owen.github.io",
+        "feed": "https://du-owen.github.io/feed.xml"
     },
     {
-        "title" : "Elias Rodriguez",
-        "url"   : "https://solitude-blog.vercel.app",
-        "feed"  : "https://solitude-blog.vercel.app/feed.xml"
+        "title": "Elias Rodriguez",
+        "url": "https://solitude-blog.vercel.app",
+        "feed": "https://solitude-blog.vercel.app/feed.xml"
     },
     {
-        "title" : "Kai Zheng",
-        "url"   : "https://kaizheng.de",
-        "feed"  : "https://kaizheng.de/post/rss.xml"
+        "title": "Kai Zheng",
+        "url": "https://kaizheng.de",
+        "feed": "https://kaizheng.de/post/rss.xml"
     }
 ]

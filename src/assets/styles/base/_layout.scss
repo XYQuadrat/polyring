@@ -41,11 +41,10 @@ body {
             display: flex;
             justify-content: center;
             align-items: center;
-            order: -1;
         }
     }
 
-    @media (min-width: 1200px) {
+    @media (min-width: 1300px) {
         width: 50%;
 
         &__primary {

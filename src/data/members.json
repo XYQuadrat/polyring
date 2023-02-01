@@ -103,5 +103,10 @@
         "title": "Kai Zheng",
         "url": "https://kaizheng.de",
         "feed": "https://kaizheng.de/post/rss.xml"
+    },
+    {
+        "title": "Tiziano Rutsch (TheCodec)",
+        "url": "https://thecodecofficial.github.io/Blog/",
+        "feed": "https://thecodecofficial.github.io/Blog/rss.xml"
     }
 ]

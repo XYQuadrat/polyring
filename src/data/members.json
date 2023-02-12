@@ -108,5 +108,11 @@
         "title": "Tiziano Rutsch (TheCodec)",
         "url": "https://thecodecofficial.github.io/Blog/",
         "feed": "https://thecodecofficial.github.io/Blog/rss.xml"
+    },
+    }
+
+        "title": "Lu (chluebi)",
+        "url": "https://chluebi.com/",
+        "feed": "https://chluebi.com/index.xml"
     }
 ]

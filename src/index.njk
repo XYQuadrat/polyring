@@ -28,19 +28,20 @@ layout: base
         Once you've joined the ring, copy this code snippet into your site:
     </p>
 
-    {% highlight 'html' %}{% include 'snippet.njk' %}{% endhighlight %}
+    {% highlight 'html' %}{% include 'snippet.njk' %}{% include 'snippet-script.njk' %}{% endhighlight %}
 
     <p>
         It will render this banner that links to the other members:
     </p>
 
+    <!-- We do not need to include snippet-script here because we load the JS once in the header already -->
     {% include 'snippet.njk' %}
 
     <p>
         Or, if you want to have a dark banner: 
     </p>
     
-    {% highlight 'html' %}{% include 'snippet-dark.njk' %}{% endhighlight %}
+    {% highlight 'html' %}{% include 'snippet-dark.njk' %}{% include 'snippet-script.njk' %}{% endhighlight %}
 
     <p>
         Which will look like this:

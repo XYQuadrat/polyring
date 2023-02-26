@@ -113,5 +113,10 @@
         "title": "Lu (chluebi)",
         "url": "https://chluebi.com/",
         "feed": "https://chluebi.com/posts/index.xml"
+    },
+    {
+        "title": "Thomas Gassmann",
+        "url": "https://thomasgassmann.com/",
+        "feed": "https://thomasgassmann.com/rss.xml"
     }
 ]

@@ -1,6 +1,7 @@
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const svgContents = require('eleventy-plugin-svg-contents')
 const htmlMinifier = require('html-minifier')
+const { minify } = require("terser");
 
 function roundToTwo(x){
     return Math.round((x + Number.EPSILON) * 100) / 100
@@ -38,6 +39,11 @@ module.exports = function (config) {
         }
         return content
     })
+
+    config.addPairedShortcode("terser", async (code) => {
+        const minified = await minify(code, {});
+        return minified.code;
+    });
 
     config.addPassthroughCopy('src/assets/images')
     config.addPassthroughCopy('src/assets/themes')

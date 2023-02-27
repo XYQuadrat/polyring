@@ -1,6 +1,7 @@
 ---
 permalink: 'embed.js'
 ---
+{% terser %}
 const THEME_FOLDER_URL = "https://polyring.ch/assets/themes/"
 
 class WebringBanner extends HTMLElement {
@@ -219,3 +220,4 @@ class WebringBanner extends HTMLElement {
 }
 
 customElements.define('webring-banner', WebringBanner);
+{% endterser %}

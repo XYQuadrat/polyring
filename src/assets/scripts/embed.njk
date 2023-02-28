@@ -2,7 +2,8 @@
 permalink: 'embed.js'
 ---
 {% terser %}
-const THEME_FOLDER_URL = "https://polyring.ch/assets/themes/"
+const THEME_FOLDER_URL = "https://polyring.ch/assets/themes/";
+const MEMBERS = {% include "src/data/members.json" %};
 
 class WebringBanner extends HTMLElement {
 
@@ -20,21 +21,16 @@ class WebringBanner extends HTMLElement {
         this.ringtitle = '{{ meta.title }}';
         this.url = '{{ meta.url }}';
         this.image = this.url + '/assets/images/{{ meta.image }}';
-        this.membercount = {{ members | length}};
         this.shadowObj = this.attachShadow({ mode: 'open' });
-        
-        fetch('{{meta.dataUrl}}')
-          .then(response => response.json())
-          .then(sites => {
-            const siteIndex = sites.findIndex(
-              (site) => site.url.includes(window.location.hostname)
-            );
 
-            this.previousUrl = siteIndex < 1 ? sites[sites.length - 1].url : sites[siteIndex - 1].url;
-            this.nextUrl = siteIndex >= sites.length - 1 ? sites[0].url : sites[siteIndex + 1].url;
-            
-            this.render();
-          });
+        const siteIndex = MEMBERS.findIndex(
+          (site) => site.url.includes(window.location.hostname)
+        );
+
+        this.previousUrl = siteIndex < 1 ? MEMBERS[MEMBERS.length - 1].url : MEMBERS[siteIndex - 1].url;
+        this.nextUrl = siteIndex >= MEMBERS.length - 1 ? MEMBERS[0].url : MEMBERS[siteIndex + 1].url;
+
+        this.render();
     }
 
     static get observedAttributes() {
@@ -100,7 +96,7 @@ class WebringBanner extends HTMLElement {
             height: 70px;
             margin-right: 1rem;
             border-radius: 50%;
-          }
+          } 
 
           .webring-banner_text {
             line-height:0%;
@@ -177,7 +173,7 @@ class WebringBanner extends HTMLElement {
                 <h3 class="webring-banner__title">
                   <a href="${this.url}">${this.ringtitle}</a>
                 </h3>
-                <span>A webring with ${this.membercount} members</span>
+                <span>A webring with ${MEMBERS.length} members</span>
               </div>
               <a class="webring-banner__info" href="https://en.wikipedia.org/wiki/Webring" title="What's this?">?</a>
             </div>

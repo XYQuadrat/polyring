@@ -3,6 +3,5 @@
     "description": "The webring for content produced by members of ETH Zurich, a university in Switzerland.",
     "image": "polyring_icon.min.svg",
     "url": "https://polyring.ch",
-    "dataUrl": "https://polyring.ch/data/members.json",
     "repo": "https://github.com/xyquadrat/polyring"
 }

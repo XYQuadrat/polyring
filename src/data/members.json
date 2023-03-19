@@ -25,6 +25,11 @@
         "feed": "https://blog.laubacher.io/blog.atom"
     },
     {
+        "title": "Jonas",
+        "url": "https://log.x77.dev/",
+        "feed": "https://log.x77.dev/feed.xml"
+    },
+    {
         "title": "Amos Herz",
         "url": "https://www.herzamos.ch",
         "feed": "https://www.herzamos.ch/feed.xml"

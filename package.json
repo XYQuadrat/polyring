@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "clean-css": ">=5.3.2",
     "cssesc": "^3.0.0",
     "eleventy-plugin-svg-contents": "^0.7.0",

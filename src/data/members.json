@@ -123,5 +123,10 @@
         "title": "Thomas Gassmann",
         "url": "https://thomasgassmann.com/",
         "feed": "https://thomasgassmann.com/rss.xml"
+    },
+    {
+        "title": "Mattia Taiana",
+        "url": "https://n.ethz.ch/~mtaiana/",
+        "feed": "https://n.ethz.ch/~mtaiana/feed.xml"
     }
 ]

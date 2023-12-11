@@ -20,6 +20,6 @@
     "eleventy-plugin-svg-contents": "^0.7.0",
     "html-minifier": "^4.0.0",
     "sass": "^1.69.5",
-    "terser": "^5.24.0"
+    "terser": "^5.26.0"
   }
 }

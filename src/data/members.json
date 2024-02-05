@@ -123,5 +123,10 @@
         "title": "Dominic Wüst",
         "url": "https://dwuest.com/",
         "feed": "https://dwuest.com/index.xml"
+    },
+    {
+        "title": "Dominik Schwaiger",
+        "url": "https://dominik-schwaiger.ch",
+        "feed": "https://dominik-schwaiger.ch/rss.xml"
     }
 ]

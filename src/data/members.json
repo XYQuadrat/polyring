@@ -128,5 +128,10 @@
         "title": "Dominik Schwaiger",
         "url": "https://dominik-schwaiger.ch",
         "feed": "https://dominik-schwaiger.ch/rss.xml"
+    },
+    {
+        "title": "Alexander Staikov",
+        "url": "https://alxstai.com",
+        "feed": null
     }
 ]

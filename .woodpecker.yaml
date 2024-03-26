@@ -1,5 +1,6 @@
 when:
-  branch: master
+  - event: push
+    branch: master
 
 steps:
   - name: build

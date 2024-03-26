@@ -1,3 +1,6 @@
+when:
+  branch: master
+
 steps:
   - name: build
     image: docker.io/node:20

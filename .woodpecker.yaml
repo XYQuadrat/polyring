@@ -1,0 +1,9 @@
+steps:
+  - name: build
+    image: docker.io/node:20
+    commands:
+      - npm ci
+      - npm run build
+      - cp -TR dist /tmp/output
+    volumes:
+      - /srv/polyring:/tmp/output

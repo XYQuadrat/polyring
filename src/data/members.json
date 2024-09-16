@@ -5,11 +5,6 @@
         "feed": "https://xyquadrat.ch/atom.xml"
     },
     {
-        "title": "Oliver Saravanja",
-        "url": "https://blog.saravanja.ch/",
-        "feed": "https://blog.saravanja.ch/feed"
-    },
-    {
         "title": "Aaron Hodel",
         "url": "https://spclr.ch/",
         "feed": "https://spclr.ch/feed.php"
@@ -73,11 +68,6 @@
         "title": "Jan Kogler",
         "url": "https://jankogler.github.io/",
         "feed": "https://jankogler.github.io/feed.xml"
-    },
-    {
-        "title": "Luc Aggett",
-        "url": "https://nothome.xyz/blog",
-        "feed": "https://nothome.xyz/blog/rss/"
     },
     {
         "title": "Danny Camenisch",

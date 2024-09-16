@@ -138,5 +138,10 @@
         "title": "Yahya Jabary (sueszli)",
         "url": "https://sueszli.github.io/",
         "feed": null
+    },
+    {
+        "title": "Bruce Röttgers",
+        "url": "https://roettgers.co/",
+        "feed": "https://roettgers.co/rss"
     }
 ]

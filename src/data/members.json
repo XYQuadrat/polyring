@@ -133,5 +133,10 @@
         "title": "Bruce Röttgers",
         "url": "https://roettgers.co/",
         "feed": "https://roettgers.co/rss"
+    },
+    {
+        "title": "Shivram Sambhus (shividotio)",
+        "url": "https://www.shivi.io/",
+        "feed": "https://www.shivi.io/blog/rss.xml"
     }
 ]

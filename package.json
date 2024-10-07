@@ -13,7 +13,7 @@
     "build": "ELEVENTY_ENV=production eleventy"
   },
   "dependencies": {
-    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "clean-css": ">=5.3.3",
     "cssesc": "^3.0.0",

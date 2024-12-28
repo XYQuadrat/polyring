@@ -138,5 +138,10 @@
         "title": "Shivram Sambhus (shividotio)",
         "url": "https://www.shivi.io/",
         "feed": "https://www.shivi.io/blog/rss.xml"
+    },
+    {
+        "title": "kalek",
+        "url": "https://kalek.dev/",
+        "feed": null
     }
 ]

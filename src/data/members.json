@@ -153,5 +153,10 @@
         "title": "Oliver Kovacs",
         "url": "https://oliverkovacs.dev",
         "feed": "https://oliverkovacs.dev/feed.xml"
+    },
+    {
+        "title": "Miro's Blog",
+        "url": "https://blog.akuta.xyz",
+        "feed": "https://blog.akuta.xyz/rss.xml"
     }
 ]

@@ -50,11 +50,6 @@
         "feed": "https://www.ateon.ch/posts/index.xml"
     },
     {
-        "title": "Lukas Möller",
-        "url": "https://lukas-moeller.ch/blog",
-        "feed": "https://lukas-moeller.ch/api/rss2.xml"
-    },
-    {
         "title": "Marc Andriu Carigiet",
         "url": "https://marccarigiet.github.io/",
         "feed": "https://marccarigiet.github.io/posts/index.xml"
@@ -65,11 +60,6 @@
         "feed": "https://avanis.xyz/blog/feed.xml"
     },
     {
-        "title": "Jan Kogler",
-        "url": "https://jankogler.github.io/",
-        "feed": "https://jankogler.github.io/feed.xml"
-    },
-    {
         "title": "Danny Camenisch",
         "url": "https://n.ethz.ch/~dcamenisch/",
         "feed": "https://n.ethz.ch/~dcamenisch/feed.xml"
@@ -78,11 +68,6 @@
         "title": "Owen Du",
         "url": "https://du-owen.github.io",
         "feed": "https://du-owen.github.io/feed.xml"
-    },
-    {
-        "title": "Elias Rodriguez",
-        "url": "https://solitude-blog.vercel.app",
-        "feed": "https://solitude-blog.vercel.app/feed.xml"
     },
     {
         "title": "Kai Zheng",

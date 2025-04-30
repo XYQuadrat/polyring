@@ -1,3 +1,6 @@
+@use "sass:color";
+@use "../utils/variables";
+
 h1,
 h2,
 h3,
@@ -27,13 +30,13 @@ h3,
 }
 
 a {
-    color: $brand-primary;
+    color: variables.$brand-primary;
     font-weight: 500;
     text-decoration: none;
 
     &:hover,
     &:focus {
-        color: scale-color($brand-primary, $lightness: -20%);
+        color: color.scale(variables.$brand-primary, $lightness: -20%);
         text-decoration: underline;
     }
 }

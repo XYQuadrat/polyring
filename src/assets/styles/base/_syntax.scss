@@ -1,6 +1,8 @@
+@use "../utils/variables";
+
 code[class*='language-'],
 pre[class*='language-'] {
-    font-family: $font-family-monospace;
+    font-family: variables.$font-family-monospace;
     font-size: 0.875rem;
     line-height: 1.6;
     direction: ltr;

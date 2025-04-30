@@ -1,12 +1,12 @@
-@import 'utils/variables';
+@use 'utils/variables';
 
-@import 'base/reset';
-@import 'base/layout';
-@import 'base/typography';
-@import 'base/markdown';
-@import 'base/syntax';
-@import 'base/helpers';
+@use 'base/reset';
+@use 'base/layout';
+@use 'base/typography';
+@use 'base/markdown';
+@use 'base/syntax';
+@use 'base/helpers';
 
-@import 'components/button';
-@import 'components/webring';
-@import 'components/map';
+@use 'components/button';
+@use 'components/webring';
+@use 'components/map';

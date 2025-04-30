@@ -1,15 +1,17 @@
+@use "../utils/variables";
+
 html {
     height: 100%;
     -webkit-text-size-adjust: 100%;
 }
 
 body {
-    font-family: $font-family-system;
-    font-size: $font-size-base;
-    line-height: $line-height-base;
-    color: $body-color;
+    font-family: variables.$font-family-system;
+    font-size: variables.$font-size-base;
+    line-height: variables.$line-height-base;
+    color: variables.$body-color;
     text-align: left;
-    background-color: $body-bg;
+    background-color: variables.$body-bg;
 }
 
 .layout {
@@ -49,7 +51,7 @@ body {
 
         &__primary {
             padding: 2rem;
-            border-right: 1px solid $gray-lighter;
+            border-right: 1px solid variables.$gray-lighter;
         }
 
         &__secondary {

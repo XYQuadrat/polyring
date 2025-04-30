@@ -1,7 +1,9 @@
+@use "../utils/variables";
+
 .webring {
     padding-bottom: 2rem;
     margin-bottom: 2rem;
-    border-bottom: 4px solid $gray-lighter;
+    border-bottom: 4px solid variables.$gray-lighter;
 
     &__header {
         margin-bottom: 2rem;
@@ -21,7 +23,7 @@
 
     &__memberlist {
         max-height: 200px;
-        border: 1px solid $gray-lighter;
+        border: 1px solid variables.$gray-lighter;
 
         overflow-y: auto;
         -webkit-overflow-scrolling: touch;
@@ -29,10 +31,10 @@
 
     &__member {
         &:not(:last-child) {
-            border-bottom: 1px solid $gray-lighter;
+            border-bottom: 1px solid variables.$gray-lighter;
         }
         &:nth-child(even) {
-            background-color: rgba($gray-light, 0.1);
+            background-color: rgba(variables.$gray-light, 0.1);
         }
     }
 

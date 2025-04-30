@@ -1,3 +1,4 @@
+@use "sass:color";
 // Colors
 //
 // Grayscale.
@@ -13,7 +14,7 @@ $gray-lightest: #f5f8fc;
 // Brand
 
 $brand-primary: #7b16ff;
-$brand-primary-dark: scale-color($brand-primary, $lightness: -11%);
+$brand-primary-dark: color.scale($brand-primary, $lightness: -11%);
 // Body
 //
 // Settings for the `<body>` element.

@@ -1,3 +1,5 @@
+@use "../utils/variables";
+
 .btn {
     border: 0;
     border-radius: 0.25rem;
@@ -17,12 +19,12 @@
 
 .btn--primary {
     color: #fff;
-    background-color: $brand-primary;
+    background-color: variables.$brand-primary;
 
     &:hover,
     &:focus {
         text-decoration: none;
-        background-color: $brand-primary-dark;
+        background-color: variables.$brand-primary-dark;
         color: #fff;
     }
 }

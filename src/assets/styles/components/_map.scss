@@ -1,7 +1,9 @@
+@use "../utils/variables";
+
 .map {
     &__circle {
         fill: transparent;
-        stroke: $gray-light;
+        stroke: variables.$gray-light;
         stroke-width: 3;
     }
     &__title {
@@ -9,17 +11,17 @@
         font-weight: bold;
     }
     &__center {
-        fill: $brand-primary;
+        fill: variables.$brand-primary;
         fill-opacity: 0.25;
     }
     &__image {
         border-radius: 50%;
     }
     &__node {
-        fill: $gray-dark;
+        fill: variables.$gray-dark;
 
         &:hover {
-            fill: $brand-primary;
+            fill: variables.$brand-primary;
         }
     }
     &__tooltip {

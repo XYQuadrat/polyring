@@ -143,5 +143,10 @@
         "title": "Miro's Blog",
         "url": "https://blog.akuta.xyz",
         "feed": "https://blog.akuta.xyz/rss.xml"
+    },
+    {
+        "title": "Fabian Rohlik",
+        "url": "https://rohlik.net",
+        "feed": "https://rohlik.net/feed.xml"
     }
 ]

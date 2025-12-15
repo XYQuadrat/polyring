@@ -80,9 +80,9 @@
         "feed": "https://thecodecofficial.github.io/Blog/rss.xml"
     },
     {
-        "title": "Lu (chluebi)",
-        "url": "https://chluebi.com/",
-        "feed": "https://chluebi.com/tags/featured/index.xml"
+        "title": "chluebi",
+        "url": "https://chluebi.github.io/conundrum",
+        "feed": "https://chluebi.github.io/conundrum/tags/featured/index.xml"
     },
     {
         "title": "Thomas Gassmann",

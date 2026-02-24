@@ -153,5 +153,10 @@
         "title": "Emanuel Mairoll (rolbk)",
         "url": "https://rolbk.com",
         "feed": "https://rolbk.com/posts/index.xml"
+    },
+    {
+        "title": "Hristo Georgiev",
+        "url": "https://georgiev.tech",
+        "feed": null
     }
 ]

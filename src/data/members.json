@@ -5,11 +5,6 @@
         "feed": "https://xyquadrat.ch/atom.xml"
     },
     {
-        "title": "Aaron Hodel",
-        "url": "https://spclr.ch/",
-        "feed": "https://spclr.ch/feed.php"
-    },
-    {
         "title": "Cédric (Starbix)",
         "url": "https://blog.laubacher.io/",
         "feed": "https://blog.laubacher.io/blog.atom"
@@ -70,11 +65,6 @@
         "feed": "https://du-owen.github.io/feed.xml"
     },
     {
-        "title": "Kai Zheng",
-        "url": "https://kaizheng.de",
-        "feed": "https://kaizheng.de/post/rss.xml"
-    },
-    {
         "title": "Tiziano Rutsch (TheCodec)",
         "url": "https://thecodecofficial.github.io/Blog/",
         "feed": "https://thecodecofficial.github.io/Blog/rss.xml"
@@ -90,14 +80,9 @@
         "feed": "https://thomasgassmann.com/rss.xml"
     },
     {
-        "title": "Mattia Taiana",
-        "url": "https://n.ethz.ch/~mtaiana/",
-        "feed": "https://n.ethz.ch/~mtaiana/feed.xml"
-    },
-    {
         "title": "Celine Wüst",
-        "url": "https://cwuest.ch/",
-        "feed": "https://cwuest.ch/index.xml"
+        "url": "https://celle.ch/",
+        "feed": "https://celle.ch/index.xml"
     },
     {
         "title": "Dominik Schwaiger",
@@ -113,11 +98,6 @@
         "title": "Yahya Jabary (sueszli)",
         "url": "https://sueszli.github.io/",
         "feed": null
-    },
-    {
-        "title": "Bruce Röttgers",
-        "url": "https://bruceroettgers.eu/",
-        "feed": "https://bruceroettgers.eu/rss"
     },
     {
         "title": "Shivram Sambhus (shividotio)",

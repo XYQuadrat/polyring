@@ -140,9 +140,9 @@
         "feed": "https://oliverkovacs.dev/feed.xml"
     },
     {
-        "title": "Miro's Blog",
-        "url": "https://blog.akuta.xyz",
-        "feed": "https://blog.akuta.xyz/rss.xml"
+        "title": "Miro's Posts",
+        "url": "https://miro.build/posts/",
+        "feed": "https://miro.build/posts/rss.xml"
     },
     {
         "title": "Fabian Rohlik",

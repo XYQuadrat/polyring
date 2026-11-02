@@ -158,5 +158,10 @@
         "title": "Marvin He",
         "url": "https://marvinhe.com",
         "feed": null
+    },
+    {
+        "title": "Dario Ackermann",
+        "url": "https://blog.ackd.xyz",
+        "feed": "http://blog.ackd.xyz/rss"
     }
 ]

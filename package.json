@@ -18,7 +18,7 @@
     "clean-css": ">=5.3.3",
     "cssesc": "^3.0.0",
     "eleventy-plugin-svg-contents": "^0.7.0",
-    "html-minifier": "^4.0.0",
+    "html-minifier": "^5.0.1",
     "sass": "^1.108.0",
     "terser": "^5.51.2"
   }

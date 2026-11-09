@@ -4,7 +4,7 @@ when:
 
 steps:
   - name: build
-    image: docker.io/node:20
+    image: docker.io/node:26
     commands:
       - npm ci
       - npm run build

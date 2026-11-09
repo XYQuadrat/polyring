@@ -1,6 +1,6 @@
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const svgContents = require('eleventy-plugin-svg-contents')
-const htmlMinifier = require('html-minifier')
+const htmlMinifier = import('html-minifier')
 const { minify } = require("terser");
 
 function roundToTwo(x){
@@ -29,9 +29,10 @@ module.exports = function (config) {
         })
     })
 
-    config.addTransform('htmlmin', function (content, outputPath) {
+    config.addTransform('htmlmin', async function (content, outputPath) {
         if (outputPath.endsWith('.html')) {
-            return htmlMinifier.minify(content, {
+            const { minify } = await htmlMinifier
+            return await minify(content, {
                 useShortDoctype: true,
                 removeComments: true,
                 collapseWhitespace: true

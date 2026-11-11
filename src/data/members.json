@@ -168,5 +168,10 @@
         "title": "Raphael Zumbrunn",
         "url": "https://zura.ch",
         "feed": null
+    },
+    {
+        "title": "Bruce Röttgers",
+        "url": "https://bruceroettgers.eu",
+        "feed": "https://bruceroettgers.eu/rss.xml"
     }
 ]

@@ -60,11 +60,6 @@
         "feed": null
     },
     {
-        "title": "Owen Du",
-        "url": "https://du-owen.github.io",
-        "feed": "https://du-owen.github.io/feed.xml"
-    },
-    {
         "title": "Tiziano Rutsch (TheCodec)",
         "url": "https://thecodecofficial.github.io/Blog/",
         "feed": "https://thecodecofficial.github.io/Blog/rss.xml"

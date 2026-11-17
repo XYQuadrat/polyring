@@ -168,5 +168,10 @@
         "title": "Bruce Röttgers",
         "url": "https://bruceroettgers.eu",
         "feed": "https://bruceroettgers.eu/rss.xml"
+    },
+    {
+        "title": "Basil Feitknecht (0xbf)",
+        "url": "https://0xbf.ch",
+        "feed": "https://blog.0xbf.ch/rss.xml"
     }
 ]
